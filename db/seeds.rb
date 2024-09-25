@@ -7,3 +7,11 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Restaurant.create([
+  { name: "Pizza Hut", address: "123 Main St", category: "italian" },
+  { name: "Sushi House", address: "456 Elm St", category: "japanese" },
+  { name: "Burger King", address: "789 Oak St", category: "fast food" },
+  { name: "Taco Bell", address: "101 Pine St", category: "mexican" },
+  { name: "KFC", address: "123 Cedar St", category: "fast food" }
+])
